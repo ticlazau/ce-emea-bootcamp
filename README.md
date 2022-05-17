@@ -269,7 +269,7 @@ Note: We show you how to save it as a notebook in step 6.
 
 
 ## Step 6. Create a notebook from your model (optional)
-#### If you want to run the notebook that you explore below, go to [`https://github.com/IBM/predict-insurance-charges-with-autoai/blob/master/notebooks/Insurance%20Premium%20Predictor%20-%20P8%20notebook.ipynb).
+#### If you want to run the notebook that you explore below, go to [`https://github.com/ticlazau/ce-emea-bootcamp/blob/master/notebooks/Insurance%20Premium%20Predictor%20-%20P8%20notebook.ipynb).
 With AutoAI's latest features, the code that is run to create these models is no more a black box. One or more of these models can be saved as a Jupyter notebook and the Python code can be run and enhanced from within. 
 
 ### 6.1 Create notebook 
