@@ -80,7 +80,7 @@ link below to sign up for a no-charge trial account - no credit card required fo
   
 
 # Steps
-0. [Download the data set ](#step-0-Download-the-data-set)
+
 1. [Clone the repo](#step-1-clone-the-repo)
 2. [Explore the data (optional)](#step-2-explore-the-data-optional)
 3. [Create IBM Cloud services](#step-3-create-ibm-cloud-services)
@@ -90,23 +90,20 @@ link below to sign up for a no-charge trial account - no credit card required fo
 7. [Run the application](#step-7-run-the-application)
 
 ## Step 0. Download the data set 
-We will use an insurance data set from Kaggle. You can find it [here](https://www.kaggle.com/noordeen/insurance-premium-prediction).
- Click on the `Download` button, and you should see
-that you will download a file named `insurance-premium-prediction.zip`. Once you unzip the file, you should see `insurance.csv`.
-This is the data set we will use for the remainder of the example. Remember that this example is purely educational, and you
-could use any data set you want - we just happened to choose this one.
+In the data folder of this git repo you should see `insurance.csv`.
+Remember that this example is purely educational, and you could use any data set you want - we just happened to choose this one.
 
 ## Step 1. Clone the repo
 Clone this repo onto your computer in the destination of your choice:
 ```
-git clone https://github.com/IBM/predict-insurance-charges-with-ai
+git clone https://github.com/ticlazau/ce-emea-bootcamp
 ```
 This gives you access to the notebooks in the `notebooks` directory. To explore the data before creating a model, 
-you can look at the [Claim Amount Exploratory](https://github.com/IBM/predict-insurance-charges-with-ai/blob/master/notebooks/Claim%20Amount%20Exploratory.ipynb) notebook, and create a [IBM Cloud Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) service, and paste your credentials in the notebook to run it. This step is purely optional.
+you can look at the [Claim Amount Exploratory](https://github.com/ticlazau/ce-emea-bootcamp/blob/master/notebooks/Claim%20Amount%20Exploratory.ipynb) notebook, and create a [IBM Cloud Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) service, and paste your credentials in the notebook to run it. This step is purely optional.
 
 ## Step 2. Explore the data (optional)
 
-#### If you want to run the notebook that is explored below, go to [`notebooks/Claim Amount Exploratory.ipynb`](https://github.com/IBM/predict-insurance-charges-with-ai/blob/master/notebooks/Claim%20Amount%20Exploratory.ipynb).
+#### If you want to run the notebook that is explored below, go to [`notebooks/Claim Amount Exploratory.ipynb`](https://github.com/ticlazau/ce-emea-bootcamp/blob/master/notebooks/Claim%20Amount%20Exploratory.ipynb).
 * Within Watson Studio, you explore the data before you create any 
 machine learning models. You want to understand the data, and find any trends between 
 what you are trying to predict (insurance premiums <b>charges</b>) and the data's features.
@@ -148,7 +145,7 @@ If you want to see all of the code, and run the notebook yourself, check the dat
 
 ![Creating-Watson-Service](https://user-images.githubusercontent.com/54094367/111079988-d50ae300-8515-11eb-8616-bec6485c140c.gif)
 
-1.	Login to your IBM Cloud account: http://ibm.biz/insuranceChargesUsingAutoAI 
+1.	Login to your IBM Cloud account: http://cloud.ibm.com
 
 2.	Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in “Watson Studio” and then click on Watson Studio under “Catalog Results”.
 
@@ -386,7 +383,7 @@ apikey you got from [step 7.1](https://github.com/IBM/predict-insurance-charges-
 curl -X POST 'https://iam.cloud.ibm.com/oidc/token' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=urn:ibm:params:oauth:grant-type:apikey&apikey=<api-key-goes-here>'
 ```
 
-As shown in the image below, the apikey can be copy and pasted from the downloaded file from the end of [step 7.1](https://github.com/IBM/predict-insurance-charges-with-autoai#71-get-IBM-Cloud-API-key). The curl request would look something like this after the apikey is pasted in:
+As shown in the image below, the apikey can be copy and pasted from the downloaded file from the end of [step 7.1](https://github.com/ticlazau/ce-emea-bootcamp#71-get-IBM-Cloud-API-key). The curl request would look something like this after the apikey is pasted in:
 
 ![api](https://user-images.githubusercontent.com/10428517/95252350-c0d9f180-07d1-11eb-841e-d5cd72da72d4.png)
 
