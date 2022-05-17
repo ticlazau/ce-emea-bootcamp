@@ -1,4 +1,4 @@
-# Create an application to predict your insurance premium cost with AutoAI 
+# Create an application to predict your insurance premium cost with Watson AutoAI 
 
 ![finalDemo](https://user-images.githubusercontent.com/10428517/82013347-f7e71500-962e-11ea-9c28-2dec7d5b30cd.gif)
 
@@ -74,8 +74,8 @@ When you have completed this code pattern, you understand how to:
 ## Prerequisites
 
 This Cloud pattern assumes you have an **IBM Cloud** account. Go to the 
-link below to sign up for a no-charge trial account - no credit card required. 
-  - [IBM Cloud account](https://ibm.biz/AutoAI-insurance)
+link below to sign up for a no-charge trial account - no credit card required for your w3 account. 
+  - [IBM Cloud account](https:cloud.ibm.com)
   - [Python 3.8.2](https://www.python.org/downloads/release/python-382/)
   
 
